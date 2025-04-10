@@ -1,5 +1,5 @@
 # Student Job Tracker
-# LiveDemo - ![Student Job Tracker](https://job-tracker-omega-seven.vercel.app/)
+# LiveDemo - [Student Job Tracker](https://job-tracker-omega-seven.vercel.app/)
 
 
 A full-stack web application designed to help students track and manage their job applications efficiently.
