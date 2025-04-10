@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 
 const corsOptions = {
-    origin: "https://job-tracker-git-master-sahil-deys-projects.vercel.app", 
+    origin: "https://job-tracker-omega-seven.vercel.app", 
     credentials: true,
 };
 
