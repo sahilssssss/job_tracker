@@ -9,6 +9,39 @@ A full-stack web application designed to help students track and manage their jo
 
 Student Job Tracker allows users to easily manage their job application process from start to finish. Track applications, interviews, offers, and rejections all in one place with a clean, intuitive interface that updates in real-time.
 
+##The Code Structure
+
+student-job-tracker/
+├── backend/                          # Backend related files
+│   ├── controllers/                  # Controller functions for job operations
+│   │   └── jobController.js          # Handle CRUD operations for jobs
+│   ├── models/                       # Mongoose models
+│   │   └── jobModel.js               # Job schema model
+│   ├── routes/                       # Express routes for APIs
+│   │   └── jobRoutes.js              # Routes for job-related API endpoints
+│   ├── server.js                     # Main server file for Express setup
+│   └── .env                          # Environment variables (e.g., MongoDB URI, port)
+│
+├── frontend/                         # Frontend related files (React app)
+│   ├── public/                       # Public folder for static files (index.html, favicon etc.)
+│   ├── src/                          # Source folder containing React components
+│   │   ├── api.js                    # Axios instance for API calls
+│   │   ├── components/               # React components
+│   │   │   ├── JobForm.jsx           # Form to add new jobs
+│   │   │   ├── JobCard.jsx           # Form to add new jobs (seems to be a duplicate description)
+│   │   │   ├── JobList.jsx           # Displays the list of jobs
+│   │   │   ├── JobFilter.jsx         # Filters for jobs based on status/date
+│   │   │   └── StatusCounter.jsx     # Counter displaying job status counts
+│   │   ├── App.js                    # Main component for the app (JobTracker logic)
+│   │   ├── index.js                  # Entry point for the React app
+│   │   └── styles/                   # CSS styles for the app
+│   │       └── all css files         # Global styles for the app
+│   └── package.json                  # Frontend dependencies and scripts
+│
+├── .gitignore                        # Git ignore file (node_modules, build, etc.)
+├── package.json                      # Main package file for both backend and frontend
+└── README.md                         # Project documentation
+
 ## ✨ Features
 
 - **Track Job Applications**: Add, update, and delete job applications
