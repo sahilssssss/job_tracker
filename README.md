@@ -1,16 +1,15 @@
 # Student Job Tracker
 # LiveDemo - [Student Job Tracker](https://job-tracker-omega-seven.vercel.app/)
 
-
-
 A full-stack web application designed to help students track and manage their job applications efficiently.
 
 ## 📋 Overview
 
 Student Job Tracker allows users to easily manage their job application process from start to finish. Track applications, interviews, offers, and rejections all in one place with a clean, intuitive interface that updates in real-time.
 
-##The Code Structure
+## 🗂️ The Code Structure
 
+```
 student-job-tracker/
 ├── backend/                          # Backend related files
 │   ├── controllers/                  # Controller functions for job operations
@@ -41,6 +40,7 @@ student-job-tracker/
 ├── .gitignore                        # Git ignore file (node_modules, build, etc.)
 ├── package.json                      # Main package file for both backend and frontend
 └── README.md                         # Project documentation
+```
 
 ## ✨ Features
 
@@ -66,20 +66,6 @@ student-job-tracker/
 ### Hosting
 - Frontend: Vercel
 - Backend: Render
-
-## 🏗️ Project Structure
-
-### Frontend Components
-- **JobForm**: Form for submitting new job applications
-- **JobList**: Displays list of job applications with update/delete options
-- **JobFilter**: Filters job applications by status or date
-- **StatusCounter**: Shows count of applications by status
-
-### Backend API Endpoints
-- **GET /api/jobs**: Fetch all job applications
-- **POST /api/jobs**: Create a new job application
-- **PUT /api/jobs/:id**: Update an existing job application
-- **DELETE /api/jobs/:id**: Delete a job application
 
 ## 🚀 Getting Started
 
@@ -135,6 +121,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+## 📚 Resources
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [Express.js Documentation](https://expressjs.com/)
 - [MongoDB Documentation](https://docs.mongodb.com/)
