@@ -28,7 +28,7 @@ student-job-tracker/
 │   │   ├── api.js                    # Axios instance for API calls
 │   │   ├── components/               # React components
 │   │   │   ├── JobForm.jsx           # Form to add new jobs
-│   │   │   ├── JobCard.jsx           # Form to add new jobs (seems to be a duplicate description)
+│   │   │   ├── JobCard.jsx           # Form to add new jobs
 │   │   │   ├── JobList.jsx           # Displays the list of jobs
 │   │   │   ├── JobFilter.jsx         # Filters for jobs based on status/date
 │   │   │   └── StatusCounter.jsx     # Counter displaying job status counts
