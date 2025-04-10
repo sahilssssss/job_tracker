@@ -1,4 +1,5 @@
 # Student Job Tracker
+# LiveDemo - https://job-tracker-omega-seven.vercel.app/
 
 A full-stack web application designed to help students track and manage their job applications efficiently.
 
@@ -98,18 +99,6 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📞 Contact
-
-Your Name - [your-email@example.com](mailto:your-email@example.com)
-
-Project Link: [https://github.com/your-username/job_tracker](https://github.com/your-username/job_tracker)
-
-## 🙏 Acknowledgements
 
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [Express.js Documentation](https://expressjs.com/)
